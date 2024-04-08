@@ -1,0 +1,33 @@
+_id: req_c1f5c92884924b77bf4625fb65ac81c6
+type: Request
+parentId: fld_269079ab84a14fef9f730035ff47ecb0
+modified: 1681721361457
+created: 1681721361457
+url: "{{ _.GST_UAT }}/getorderdetails"
+name: Get Order Details
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "OrderID": "ORD2021100121680",
+      "Slug": "money-wise-financial-services-pvt-ltd",
+      "LoginNo": "8855",
+      "Token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJTTUMgR1NUIEFQUCIsInVzZXJfaWQiOiIxIiwibmFtZSI6IkFiaGlzaGVrIiwiZW1haWxJZCI6InRlc3RAZWthbnQuY29tIiwidXNlcl90eXBlIjoiNCIsImV4cCI6MTY4MDg1OTg4NiwiaWF0IjoxNjgwNzczNDg2fQ.Qxr4vz2qACndjgr2fXgo--wgrZERFO9mrfrqvaWCyZg",
+      "RequestDuration": "4"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7932fd5f0c0145b9a153ff934a79bcc7
+authentication: {}
+metaSortKey: 525
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

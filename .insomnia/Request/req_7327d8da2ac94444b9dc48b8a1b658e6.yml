@@ -1,0 +1,33 @@
+_id: req_7327d8da2ac94444b9dc48b8a1b658e6
+type: Request
+parentId: fld_06166943a4ad4c58be1ca91ece000083
+modified: 1674564867644
+created: 1674564850632
+url: https://apicloud.smcfinance.com/sales_lead/otp/verify
+name: Verify OTP _PROD
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+      "sales_lead_id": 3437,
+      "mobile_no": "9824041461",
+      "otp": "641715",
+      "modified_by": 225
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.Token }}"
+metaSortKey: -1674301926903
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

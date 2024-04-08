@@ -1,0 +1,39 @@
+_id: req_bbd563e28ba644e28e249a5a78138cf7
+type: Request
+parentId: fld_0383f1dc1b594b31870856ea18a72ca1
+modified: 1668169269739
+created: 1657015678743
+url: "{{ _.UAT_SalesAPI }}/kyc/insertidentity"
+name: Insert KYC Identity
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "kyc_demographic_id": 231,
+        "doc_name_id": "172",
+        "identity_no": "RBI3028221",
+        "issue_date": "01-01-1900",
+        "expiry_date": "01-01-1900",
+        "issuing_authority": "",
+        "source": "",
+        "state_id": "",
+        "created_by": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b23ec103875642848b90010f2ff0ea80
+authentication:
+  type: bearer
+  token: "{{ _.Token }}"
+metaSortKey: 500
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

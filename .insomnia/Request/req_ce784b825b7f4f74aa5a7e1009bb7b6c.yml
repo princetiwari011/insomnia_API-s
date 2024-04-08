@@ -1,0 +1,46 @@
+_id: req_ce784b825b7f4f74aa5a7e1009bb7b6c
+type: Request
+parentId: fld_0383f1dc1b594b31870856ea18a72ca1
+modified: 1668169142195
+created: 1657014737108
+url: "{{ _.UAT_SalesAPI }}/kyc/insertdemographic"
+name: Insert KYC Demographic
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "ckyc_no": "20077752704939",
+        "pan": "EQLPK3193K",
+        "full_name": "SACHIN KUMAR",
+        "first_name": "SACHIN",
+        "middle_name": "",
+        "last_name": "KUMAR",
+        "father_name": "MR NA  ",
+        "spouse_name": "",
+        "mother_name": "Mrs LATE MITHLESH DEVI",
+        "gender": 1,
+        "dob_doi": "01-26-1996",
+        "marital_status": "",
+        "coi": "",
+        "is_proprietorship": 0,
+        "is_registered": 0,
+        "created_by": "1"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_027515e1edec4ca8be29e5367daa01c0
+authentication:
+  type: bearer
+  token: "{{ _.Token }}"
+metaSortKey: 300
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

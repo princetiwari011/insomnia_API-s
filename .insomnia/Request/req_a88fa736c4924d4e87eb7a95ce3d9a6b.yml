@@ -1,0 +1,21 @@
+_id: req_a88fa736c4924d4e87eb7a95ce3d9a6b
+type: Request
+parentId: fld_ea3b50bc947e41248dddad77b814adda
+modified: 1699598359170
+created: 1658292743562
+url: http://35.207.213.73/UAT/PAN/RestServiceImpl.svc/json/AACFW5533C
+name: PAN (UAT)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

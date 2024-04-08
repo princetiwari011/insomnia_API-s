@@ -1,0 +1,21 @@
+_id: req_61272b06ce7d4b5c9723d000198d6917
+type: Request
+parentId: fld_64f9d9c11e024005a475182a0c0f54b3
+modified: 1674565020048
+created: 1657012431730
+url: http://ums.devopsmcfinance.com/login/token/createbyemail?Email=aniltiwari@smcfinance.com
+name: Get Token by Email
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 50
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

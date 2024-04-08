@@ -1,0 +1,40 @@
+_id: req_136d284e74a24b43b4ba09d93e3028c5
+type: Request
+parentId: fld_0383f1dc1b594b31870856ea18a72ca1
+modified: 1666881772900
+created: 1657015545496
+url: "{{ _.UAT_SalesAPI }}/kyc/insertcontact"
+name: Insert KYC Contact
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "kyc_demographic_id": 231,
+        "mobile_no": "7838316825",
+        "email": "sachin2015144111@gmail.com",
+        "created_by": "1",
+        "is_default_mobile": true,
+        "is_default_email": true,
+        "country_code": "",
+        "std_code": "",
+        "landline_no": "",
+        "extention_no": ""
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_dd7c67fedc5847d1a320d3e13aa26bec
+authentication:
+  type: bearer
+  token: "{{ _.BearerToken }}"
+metaSortKey: 200
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

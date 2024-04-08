@@ -1,0 +1,37 @@
+_id: req_671c52e6d672461fabc316268a978450
+type: Request
+parentId: fld_0383f1dc1b594b31870856ea18a72ca1
+modified: 1700135229600
+created: 1657015742600
+url: https://sales-lead-v1-dotnet-backend-prod-jyjykemwhq-em.a.run.app/kyc/insertdocument
+name: Insert KYC Document
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "kyc_demographic_id": 17658,
+        "kyc_identity_id": 0,
+        "doc_sr_no": "1",
+        "doc_file": "JVBERi0xLjcNMSAwIG9iag08PC9UeXBlIC9YT",
+        "file_name": "Aadhar Card",
+        "file_ext": "pdf",
+        "created_by": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_967ab1873ad7418283f3d9b7b73c4e71
+authentication:
+  type: bearer
+  token: "{{ _.Token }}"
+metaSortKey: 400
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

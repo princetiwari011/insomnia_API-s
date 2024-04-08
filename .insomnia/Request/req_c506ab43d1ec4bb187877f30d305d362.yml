@@ -1,0 +1,32 @@
+_id: req_c506ab43d1ec4bb187877f30d305d362
+type: Request
+parentId: fld_06166943a4ad4c58be1ca91ece000083
+modified: 1683633074468
+created: 1674023737099
+url: http://api.devopsmcfinance.com/sales_lead/otp/resendotp
+name: Re-Send OTP-UAT
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "sales_lead_id": 2200,
+      "mobile_no": "9971002711",
+      "created_by": "187"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.Token }}"
+metaSortKey: -1674023737099
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

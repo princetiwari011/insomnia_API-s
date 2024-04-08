@@ -1,0 +1,27 @@
+_id: env_08ec28126b968d288837ea19f88c368d19870b21
+type: Environment
+parentId: wrk_d9beee8904fc49659c6cb299a46b47bb
+modified: 1707126570686
+created: 1657012342962
+name: Base Environment
+data:
+  UAT_SalesAPI: http://api.devopsmcfinance.com/
+  UAT_SalesAPI_2: https://vendor-node-dev-backend-m54bsjg7fq-em.a.run.app/
+  GST_Prod: https://apicloud.smcfinance.com/gst/v13/
+  GST_UAT: http://gstapi.devopsmcfinance.com/v14/
+  Token: "{% response 'body', 'req_61272b06ce7d4b5c9723d000198d6917',
+    'b64::JC5kYXRhLml0ZW0udG9rZW4=::46b', 'when-expired', 86399 %}"
+  Sales app_Prod: https://apicloud.smcfinance.com/
+  UAT POC: https://los-backend-dotnet-existing-m54bsjg7fq-em.a.run.app
+dataPropertyOrder:
+  "&":
+    - UAT_SalesAPI
+    - UAT_SalesAPI_2
+    - GST_Prod
+    - GST_UAT
+    - Token
+    - Sales app_Prod
+    - UAT POC
+color: null
+isPrivate: false
+metaSortKey: 1657012342962

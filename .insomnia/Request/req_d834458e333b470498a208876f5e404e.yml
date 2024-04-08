@@ -1,0 +1,30 @@
+_id: req_d834458e333b470498a208876f5e404e
+type: Request
+parentId: fld_bd8398bbefb34af08624e695bcf3fa56
+modified: 1670241264921
+created: 1658291434719
+url: "{{ _.GST_Prod }}/adminlogin"
+name: Admin Login (Prod)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"UserName":"test@ekant.com",
+    	"Password":"a"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_62a47161c0704757851054cc64e89453
+authentication: {}
+metaSortKey: 0
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

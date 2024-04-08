@@ -1,0 +1,41 @@
+_id: req_a8c3714994d14373a89cb80d0ebaa7c0
+type: Request
+parentId: fld_747dbf08fc084eba8cb3a0faaf141c9f
+modified: 1707126585082
+created: 1657014074200
+url: http://api.devopsmcfinance.com/sales_lead/saleslead/insert
+name: Insert New Lead
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"product_id": 1,
+    	"scheme_id": 2,
+    	"mobile_no": "9452033538",
+    	"loan_amount": 350000,
+    	"source_desc": "DIRECT",
+    	"created_by": 187,
+    	"branch_id": 0,
+    	"pd_id": "123",
+    	"loan_application_type_id": 61112,
+    	"source_type": "DSA",
+    	"dsa": "MWDSA2806"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_86d1064cfa484f0eaac9a240bde6adab
+authentication:
+  type: bearer
+  token: '"Token"'
+metaSortKey: 300
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

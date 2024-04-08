@@ -1,0 +1,21 @@
+_id: req_b0c700e76f044b9e8ec3ca9f0377596e
+type: Request
+parentId: fld_ea3b50bc947e41248dddad77b814adda
+modified: 1704352594487
+created: 1658292703835
+url: "{{ _.UAT_SalesAPI_2 }}PAN/RestServiceImpl.svc/json/blmpt1238d"
+name: PAN (Prod)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 0
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

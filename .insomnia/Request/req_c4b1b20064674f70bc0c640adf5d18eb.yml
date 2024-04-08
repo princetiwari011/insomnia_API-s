@@ -1,0 +1,34 @@
+_id: req_c4b1b20064674f70bc0c640adf5d18eb
+type: Request
+parentId: fld_269079ab84a14fef9f730035ff47ecb0
+modified: 1681721401301
+created: 1681721401301
+url: "{{ _.GST_UAT }}/validateotp"
+name: Validate OTP
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "GSTIN": "07AAACS0581R1ZX",
+      "UserName": "smcglobal",
+      "OrderID":  "ORD2021092911937",
+      "OTP": "919656",
+      "LoginNo": "3434",
+      "Token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJTTUMgR1NUIEFQUCIsInVzZXJfaWQiOiIxIiwibmFtZSI6IkFiaGlzaGVrIiwiZW1haWxJZCI6InRlc3RAZWthbnQuY29tIiwidXNlcl90eXBlIjoiNCIsImV4cCI6MTY1ODM3NzkwOSwiaWF0IjoxNjU4MjkxNTA5fQ.70IcWQzyRRSgESKcTIgsQzlfMm4-b-gpP-Z1drbeWiM"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_9774f3ac9f134480a673941570679983
+authentication: {}
+metaSortKey: 1000.390625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

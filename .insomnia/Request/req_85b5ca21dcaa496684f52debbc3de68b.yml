@@ -1,0 +1,37 @@
+_id: req_85b5ca21dcaa496684f52debbc3de68b
+type: Request
+parentId: fld_269079ab84a14fef9f730035ff47ecb0
+modified: 1681721356265
+created: 1681721356265
+url: "{{ _.GST_UAT }}/getfilingperiod"
+name: Get Filing Period Detail
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+
+    "Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJTTUMgR1NUIEFQUCIsInVzZXJfaWQiOiIxIiwibmFtZSI6IkFiaGlzaGVrIiwiZW1haWxJZCI6InRlc3RAZWthbnQuY29tIiwidXNlcl90eXBlIjoiNCIsImV4cCI6MTY4MDg1OTg4NiwiaWF0IjoxNjgwNzczNDg2fQ.Qxr4vz2qACndjgr2fXgo--wgrZERFO9mrfrqvaWCyZg",
+
+    "GSTIN":"09AADCS7346H1Z2",
+
+    "RequestDuration":"2",
+
+    "LoginNo":"222"
+
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b3c656b0c40549e99c6d126174e8b6b8
+authentication: {}
+metaSortKey: 425
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

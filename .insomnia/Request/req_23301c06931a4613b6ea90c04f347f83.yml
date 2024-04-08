@@ -1,0 +1,40 @@
+_id: req_23301c06931a4613b6ea90c04f347f83
+type: Request
+parentId: fld_06166943a4ad4c58be1ca91ece000083
+modified: 1672138292330
+created: 1657014222274
+url: http://api.devopsmcfinance.com/uat_sms/sms/send
+name: Send SMS_ UAT
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"ApplicationName": "SMSAPI",
+    	"Username": "Moneywise",
+    	"Password": "Mwf$2021",
+    	"Data": [
+    		{
+    			"Type": "Development Testing",
+    			"LAN": "TEST01",
+    			"Mobile": "9452033538",
+    			"Content": "Dear Customer Please click on the url 145612 to proceed further. Regards SMC Finance",
+    			"URL": "https://www.smcfinance.com/"
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_28174191b9504deaaa297e71bdf0f438
+authentication: {}
+metaSortKey: 0
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

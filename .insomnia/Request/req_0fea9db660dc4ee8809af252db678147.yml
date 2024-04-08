@@ -1,0 +1,32 @@
+_id: req_0fea9db660dc4ee8809af252db678147
+type: Request
+parentId: fld_269079ab84a14fef9f730035ff47ecb0
+modified: 1696586656743
+created: 1681721336908
+url: http://gstapi.devopsmcfinance.com/v14/confirmorder
+name: Confirm Order
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "OrderID": "ORD2023040621898",
+      "Slug": "money-wise-financial-services-pvt-ltd",
+      "Token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJTTUMgR1NUIEFQUCIsInVzZXJfaWQiOiIxIiwibmFtZSI6IkFiaGlzaGVrIiwiZW1haWxJZCI6InRlc3RAZWthbnQuY29tIiwidXNlcl90eXBlIjoiNCIsImV4cCI6MTY4MDg1OTg4NiwiaWF0IjoxNjgwNzczNDg2fQ.Qxr4vz2qACndjgr2fXgo--wgrZERFO9mrfrqvaWCyZg",
+      "LoginNo": "111"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_dc1ddf9ed5ef4293b86e18ee0153498c
+authentication: {}
+metaSortKey: 112.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

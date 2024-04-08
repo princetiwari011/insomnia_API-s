@@ -1,0 +1,46 @@
+_id: req_86edcde4088b4f9bb1f1938cffbb0b5b
+type: Request
+parentId: fld_bd8398bbefb34af08624e695bcf3fa56
+modified: 1681724222386
+created: 1681721343494
+url: "{{ _.GST_Prod }}/createorder"
+name: Create Order
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"SubRequest": [
+    		{
+    			"GSTIN": "03AADCS7346H1ZE",
+    			"ReturnType": "GSTR1",
+    			"FilingPeriod": "032023",
+    			"Section": "B2B",
+    			"TaxpayerName": "MONEYWISE FINANCIAL SERVICES PRIVATE LIMITED",
+    			"MobileNumber": "9971002711"
+    		}
+    	],
+    	"PAN": "AADCS7346H",
+    	"Merge": false,
+    	"IsCsv": true,
+    	"Slug": "money-wise-financial-services-pvt-ltd",
+    	"LoginNo": "MWT00001",
+    	"Token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJTTUMgR1NUIEFQUCIsInVzZXJfaWQiOiIxIiwibmFtZSI6IkFiaGlzaGVrIiwiZW1haWxJZCI6InRlc3RAZWthbnQuY29tIiwidXNlcl90eXBlIjoiNCIsImV4cCI6MTY4MTgwOTY4OCwiaWF0IjoxNjgxNzIzMjg4fQ.m6tjYJc_g-HK8t6l0f53BH02TA-IcpLh4-RhPpjhIkU"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_dddd6f0f4197400ca79a2e51d1810f43
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJTTUMgR1NUIEFQUCIsInVzZXJfaWQiOiIxIiwibmFtZSI6IkFiaGlzaGVrIiwiZW1haWxJZCI6InRlc3RAZWthbnQuY29tIiwidXNlcl90eXBlIjoiNCIsImV4cCI6MTY3NjQ2MzkzMSwiaWF0IjoxNjc2Mzc3NTMxfQ.1ZoZtWNo3rDUF-xlr4coEpjmSfAaMgUb8AHuyfkRt6w
+metaSortKey: 125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

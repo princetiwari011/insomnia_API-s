@@ -1,0 +1,40 @@
+_id: req_5bd14ccef82041f086551e6588f62960
+type: Request
+parentId: wrk_d9beee8904fc49659c6cb299a46b47bb
+modified: 1700144068426
+created: 1664177447224
+url: https://dotnet-sms-api-v1-prod-jyjykemwhq-em.a.run.app/SMS/Send
+name: Send SMS New Temp_PROD
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "ApplicationName": "SMSAPI",
+      "Username": "Moneywise",
+      "Password": "Mwf$2021",
+      "Data": [
+        {
+          "Type": "CASE LOGIN CONSENT TEMPLATE ONE",
+          "LAN": "TEST01",
+          "Mobile": "9452033538",
+          "Content": "Dear Customer, This is in regard to your loan application with MONEYWISE FINANCIAL SERVICES PVT LTD (SMC Finance). We, SMC Finance, seek your authorization/consent to collect/disclose given information/data herein to/with any external agency, credit bureaus/rating agencies, CKYC registry/regulatory/govt authorities etc. OTP for verification 123456 Regards, SMC Finance",
+          "URL": "https://www.smcfinance.com/"
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_3a35f2c81d274ef79c3755b1834a1662
+authentication: {}
+metaSortKey: -1664177447224
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

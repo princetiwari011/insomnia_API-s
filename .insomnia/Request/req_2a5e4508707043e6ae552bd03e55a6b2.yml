@@ -1,0 +1,32 @@
+_id: req_2a5e4508707043e6ae552bd03e55a6b2
+type: Request
+parentId: wrk_d9beee8904fc49659c6cb299a46b47bb
+modified: 1687253757062
+created: 1683698523101
+url: https://apicloud.smcfinance.com/sales_lead/saleslead/rejectlead
+name: rejectlead
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "sales_lead_id": 18,
+      "remarks": "This case has been rejected",
+      "modified_by": "2"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.Token }}"
+metaSortKey: -1683698523101
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

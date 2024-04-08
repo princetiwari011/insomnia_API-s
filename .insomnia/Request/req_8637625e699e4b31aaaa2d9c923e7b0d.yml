@@ -1,0 +1,32 @@
+_id: req_8637625e699e4b31aaaa2d9c923e7b0d
+type: Request
+parentId: fld_06166943a4ad4c58be1ca91ece000083
+modified: 1676372759429
+created: 1674564739084
+url: https://apicloud.smcfinance.com/sales_lead/otp/resendotp
+name: Resend OTP _PROD
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "sales_lead_id": 3760,
+      "mobile_no": "7838975595",
+      "created_by": "231"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.Token }}"
+metaSortKey: -1674564739084
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

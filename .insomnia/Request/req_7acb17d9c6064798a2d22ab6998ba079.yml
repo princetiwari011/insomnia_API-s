@@ -1,0 +1,32 @@
+_id: req_7acb17d9c6064798a2d22ab6998ba079
+type: Request
+parentId: wrk_d9beee8904fc49659c6cb299a46b47bb
+modified: 1706170281268
+created: 1706170231441
+url: https://activity-tracker-staging-m54bsjg7fq-em.a.run.app/salesapp/api/v1/sales-lead/update-pd
+name: "Update PD Status "
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "salesLeadId": "5689",
+        "pdId":"MWISE-WCTL-7538",
+        "pdStatus":"2"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1706170231441
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

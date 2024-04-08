@@ -1,0 +1,34 @@
+_id: req_3f1f5ae4321f4f2f8f33356d11fc1578
+type: Request
+parentId: fld_269079ab84a14fef9f730035ff47ecb0
+modified: 1680773723860
+created: 1658291434660
+url: "{{ _.GST_UAT }}/gettaxpayerdetail"
+name: Taxpayer (KYC)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+
+    "Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJTTUMgR1NUIEFQUCIsInVzZXJfaWQiOiIxIiwibmFtZSI6IkFiaGlzaGVrIiwiZW1haWxJZCI6InRlc3RAZWthbnQuY29tIiwidXNlcl90eXBlIjoiNCIsImV4cCI6MTY4MDg1OTg4NiwiaWF0IjoxNjgwNzczNDg2fQ.Qxr4vz2qACndjgr2fXgo--wgrZERFO9mrfrqvaWCyZg",
+    	"PAN":"AADCS7346H",
+    	"RequestDuration":"5",
+    	"LoginNo" :"858558",
+    	"GSTIN": "09AADCS7346H1Z2"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ad3ed4838b8146918114005354599123
+authentication: {}
+metaSortKey: 900
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

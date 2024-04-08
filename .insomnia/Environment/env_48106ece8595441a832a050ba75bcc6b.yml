@@ -1,0 +1,14 @@
+_id: env_48106ece8595441a832a050ba75bcc6b
+type: Environment
+parentId: env_08ec28126b968d288837ea19f88c368d19870b21
+modified: 1695907656139
+created: 1695907573450
+name: New Environment
+data:
+  UAT POC: https://los-backend-dotnet-existing-m54bsjg7fq-em.a.run.app
+dataPropertyOrder:
+  "&":
+    - UAT POC
+color: "#f40b0b"
+isPrivate: false
+metaSortKey: 1695907573450

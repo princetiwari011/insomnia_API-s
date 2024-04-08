@@ -1,0 +1,23 @@
+_id: req_28c1a80eb28140928c8801e6e37dc437
+type: Request
+parentId: fld_747dbf08fc084eba8cb3a0faaf141c9f
+modified: 1681474684249
+created: 1663232244726
+url: http://api.devopsmcfinance.com/sales_lead/view/getlist?Id=187
+name: View customer
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.Token }}"
+metaSortKey: -1663232244726
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

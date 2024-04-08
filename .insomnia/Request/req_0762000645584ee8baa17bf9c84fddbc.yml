@@ -1,0 +1,36 @@
+_id: req_0762000645584ee8baa17bf9c84fddbc
+type: Request
+parentId: fld_7b72c062b48948309168118a1ec34f6a
+modified: 1699449756642
+created: 1674128816333
+url: https://apicloud.smcfinance.com/ckyc/ckycapiservice.svc/downloadckyc
+name: Download CKYC-Prod
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "Factor": "05-07-1989",
+      "FactorType": "01",
+      "PAN": "BEYPR8209D",
+      "CkycNo": "20000493702088",
+      "Authentication": {
+        "UserID": "Moneywise",
+        "Password": "ID@15#API"
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f3c454a3dd774261a64fd3a02a32ea38
+authentication: {}
+metaSortKey: 550
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

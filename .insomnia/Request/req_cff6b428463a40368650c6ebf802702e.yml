@@ -1,0 +1,21 @@
+_id: req_cff6b428463a40368650c6ebf802702e
+type: Request
+parentId: fld_0877aa1f18324b568eb07085896bfd00
+modified: 1668354997093
+created: 1657013800415
+url: "{{ _['Sales app_Prod'] }}uat_sms/master/getlogin"
+name: Get Login Number
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 200
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

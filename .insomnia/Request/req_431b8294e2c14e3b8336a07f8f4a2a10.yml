@@ -1,0 +1,32 @@
+_id: req_431b8294e2c14e3b8336a07f8f4a2a10
+type: Request
+parentId: fld_bd8398bbefb34af08624e695bcf3fa56
+modified: 1681721500494
+created: 1658291434695
+url: "{{ _.GST_Prod }}/confirmorder"
+name: Confirm Order
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "OrderID": "ORD2023040621898",
+      "Slug": "money-wise-financial-services-pvt-ltd",
+      "Token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJTTUMgR1NUIEFQUCIsInVzZXJfaWQiOiIxIiwibmFtZSI6IkFiaGlzaGVrIiwiZW1haWxJZCI6InRlc3RAZWthbnQuY29tIiwidXNlcl90eXBlIjoiNCIsImV4cCI6MTY4MDg1OTg4NiwiaWF0IjoxNjgwNzczNDg2fQ.Qxr4vz2qACndjgr2fXgo--wgrZERFO9mrfrqvaWCyZg",
+      "LoginNo": "111"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_dc1ddf9ed5ef4293b86e18ee0153498c
+authentication: {}
+metaSortKey: 150
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

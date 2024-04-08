@@ -1,0 +1,32 @@
+_id: req_3998b9d888694558ae54412e44e03e38
+type: Request
+parentId: fld_06166943a4ad4c58be1ca91ece000083
+modified: 1683633144111
+created: 1674038150607
+url: http://api.devopsmcfinance.com/sales_lead/otp/verify
+name: Verify OTP_UAT
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "sales_lead_id": 2200,
+      "mobile_no": "9971002711",
+      "created_by": "187"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.Token }}"
+metaSortKey: -1674038150607
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

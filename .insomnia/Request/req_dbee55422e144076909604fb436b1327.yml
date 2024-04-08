@@ -1,0 +1,23 @@
+_id: req_dbee55422e144076909604fb436b1327
+type: Request
+parentId: wrk_d9beee8904fc49659c6cb299a46b47bb
+modified: 1696421015472
+created: 1664861518185
+url: https://apicloud.smcfinance.com/sales_lead/view/getlist?Id=239
+name: Sales_Lead By ID
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.Token }}"
+metaSortKey: -1664861518185
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

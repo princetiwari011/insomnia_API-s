@@ -1,0 +1,31 @@
+_id: req_f1c2a0911c4748ac858d2be331678aef
+type: Request
+parentId: wrk_d9beee8904fc49659c6cb299a46b47bb
+modified: 1683698552240
+created: 1668355064845
+url: "{{ _['Sales app_Prod'] }}sales_lead/saleslead/sendtolos"
+name: Sales App MW No.Generate -Prod
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "sales_lead_id": 1,
+      "modified_by": 138
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.Token }}"
+metaSortKey: -1668355064845
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

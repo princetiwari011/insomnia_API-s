@@ -1,0 +1,32 @@
+_id: req_926b9ea089b84322870b5ecec7b8f8e9
+type: Request
+parentId: fld_bd8398bbefb34af08624e695bcf3fa56
+modified: 1681723359295
+created: 1658291434725
+url: "{{ _.GST_Prod }}/getgstin"
+name: GetGSTIN (Prod)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"Token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJTTUMgR1NUIEFQUCIsInVzZXJfaWQiOiIxIiwibmFtZSI6IkFiaGlzaGVrIiwiZW1haWxJZCI6InRlc3RAZWthbnQuY29tIiwidXNlcl90eXBlIjoiNCIsImV4cCI6MTY4MTgwOTY4OCwiaWF0IjoxNjgxNzIzMjg4fQ.m6tjYJc_g-HK8t6l0f53BH02TA-IcpLh4-RhPpjhIkU",
+    	"PAN": "AADCS7346H",
+    	"RequestDuration": "5",
+    	"LoginNo": "MWT00001"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a9a17eda53b5422bb53a112d422960b6
+authentication: {}
+metaSortKey: 100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

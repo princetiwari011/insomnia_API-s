@@ -1,0 +1,23 @@
+_id: req_908e10d529674d258b7e155346163823
+type: Request
+parentId: fld_0877aa1f18324b568eb07085896bfd00
+modified: 1666262553974
+created: 1657892963279
+url: "{{ _.UAT_SalesAPI }}/masters/state"
+name: State Master
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.Token }}"
+metaSortKey: 500
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

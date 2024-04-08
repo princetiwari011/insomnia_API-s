@@ -1,0 +1,57 @@
+_id: req_5799ed974c3f445c97cd411483b7c952
+type: Request
+parentId: wrk_d9beee8904fc49659c6cb299a46b47bb
+modified: 1707112692293
+created: 1687253502782
+url: https://apicloud.smcfinance.com/consumer_cibil2/Enquiry/InternalEnquiry
+name: Internal Enquiry
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "ApplicationName": "ConsumerCIBIL",
+      "ConsumerName1": "BHAGWAN",
+      "ConsumerName2": "",
+      "ConsumerName3": "DASS",
+      "DOB": "28-04-1971",
+      "Gender": "Male",
+      "LoanAmount": "3000000",
+      "EnquiryPurposeCode": "00",
+      "ScoreType": "08",
+      "AddressList": [
+        {
+          "AddressLine1": "E-11, 2ND floor ",
+          "AddressLine2": "New Multan Nagar",
+          "AddressLine3": "Shakur Basti, Depot. Delhi",
+          "AddressLine4": "",
+          "AddressLine5": "",
+          "StateCode": "07",
+          "PinCode": "110056",
+          "ResidenceCode": "02",
+          "AddressCategory": "02"
+        }
+      ],
+      "IDNumbers": [
+        {
+          "IDType": "01",
+          "IDNumber": "ACNPD7678J"
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: Token
+metaSortKey: -1687253502782
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

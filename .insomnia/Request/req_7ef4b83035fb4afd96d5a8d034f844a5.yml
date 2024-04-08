@@ -1,0 +1,28 @@
+_id: req_7ef4b83035fb4afd96d5a8d034f844a5
+type: Request
+parentId: fld_747dbf08fc084eba8cb3a0faaf141c9f
+modified: 1700164463502
+created: 1657013407124
+url: "{{ _['Sales app_Prod'] }}view/getleaddetail?sales_lead_id=2023"
+name: Get Lead Details
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_9792c58486ab4740a120a42ce60444e1
+authentication:
+  type: bearer
+  token: "{{ _.Token }}"
+metaSortKey: 100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

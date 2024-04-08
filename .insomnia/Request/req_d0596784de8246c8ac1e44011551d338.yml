@@ -1,0 +1,23 @@
+_id: req_d0596784de8246c8ac1e44011551d338
+type: Request
+parentId: fld_0877aa1f18324b568eb07085896bfd00
+modified: 1695970302423
+created: 1657013697333
+url: "{{ _['UAT POC'] }}/masters/borrowertype"
+name: Borrower Type List
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.Token }}"
+metaSortKey: 0
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

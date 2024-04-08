@@ -1,0 +1,31 @@
+_id: req_22a9572a5c544151a116337b4097c962
+type: Request
+parentId: fld_64f9d9c11e024005a475182a0c0f54b3
+modified: 1709716899868
+created: 1657012506021
+url: http://ums.devopsmcfinance.com/common/dashboard/getbyid
+name: Get By ID -  UMS
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"UsersId": "187"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c1c9c77f507b4687910e15071fc556c8
+authentication:
+  type: bearer
+  token: "{{ _.Token }}"
+metaSortKey: 0
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

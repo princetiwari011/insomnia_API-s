@@ -1,0 +1,31 @@
+_id: req_fd154a7168fe45a988c47050c6bc3e4c
+type: Request
+parentId: fld_159d908366e94d56838fca7039278f1d
+modified: 1706519551826
+created: 1657169517532
+url: http://api.devopsmcfinance.com/uat_salesapi/api/SalesApp/ConsumerCIBILReq
+name: CIBIL from DB
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "API_REQUEST_STRING": "ACYPA0379C"
+    }
+
+    https://apicloud.smcfinance.com/sales_api/api/SalesApp/ConsumerCIBILReq
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4e2468cfbc20489c9f3edf60f090c604
+authentication: {}
+metaSortKey: 0
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

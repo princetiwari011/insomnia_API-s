@@ -1,0 +1,49 @@
+_id: req_bc91300fd3f1450ab880c36e7dc96aad
+type: Request
+parentId: fld_0383f1dc1b594b31870856ea18a72ca1
+modified: 1666881763716
+created: 1657015613291
+url: https://apicloud.smcfinance.com/sales_lead/kyc/insertaddress
+name: Insert KYC Address
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    							"kyc_address_id": 349,
+    							"kyc_demographic_id": 328,
+    							"address_category_id": 1,
+    							"ownership_types_id": 1,
+    							"address_type_id": 1,
+    							"address_line_1": "PATTI SOHAN DI AMRITSAR",
+    							"address_line_2": "VERKA PUNJAB",
+    							"address_line_3": "",
+    							"pin_code": 143501,
+    							"city": "Amritsar",
+    							"district": "Amritsar",
+    							"landmark": "",
+    							"state_id": 3,
+    							"country_id": 0,
+    							"latitude": "",
+    							"longitude": "",
+    							"is_verified": false,
+    							"is_active": true,
+    							"created_by": 1
+    						}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4fa30bda9f5f4c0c99253ea62f83e612
+authentication:
+  type: bearer
+  token: "{{ _.Token }}"
+metaSortKey: 100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

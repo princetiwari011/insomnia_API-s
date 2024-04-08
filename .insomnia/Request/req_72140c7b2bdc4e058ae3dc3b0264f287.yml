@@ -1,0 +1,31 @@
+_id: req_72140c7b2bdc4e058ae3dc3b0264f287
+type: Request
+parentId: fld_747dbf08fc084eba8cb3a0faaf141c9f
+modified: 1700290177098
+created: 1658122713273
+url: "{{ _['UAT POC'] }}/view/getleaddetail?sales_lead_id=4957"
+name: Get Lead Details (PROD)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	sales_lead_id = 8256
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_9792c58486ab4740a120a42ce60444e1
+authentication:
+  type: bearer
+  token: "{{ _.Token }}"
+metaSortKey: 200
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

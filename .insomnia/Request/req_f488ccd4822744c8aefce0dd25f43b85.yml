@@ -1,0 +1,63 @@
+_id: req_f488ccd4822744c8aefce0dd25f43b85
+type: Request
+parentId: fld_159d908366e94d56838fca7039278f1d
+modified: 1706520477295
+created: 1706520450168
+url: https://sales-lead-v1-dotnet-backend-prod-jyjykemwhq-em.a.run.app/salesleaddetail/update
+name: Update - CIBIL _ Prod
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"sales_lead_id": 9666,
+    	"kyc_demographic_id": 17719,
+    	"is_con_cibil_download": 1,
+    	"modified_by": "187"
+    }
+parameters: []
+headers:
+  - name: authority
+    value: sales-lead-v1-dotnet-backend-prod-jyjykemwhq-em.a.run.app
+  - name: accept
+    value: application/json, text/plain, */*
+  - name: accept-language
+    value: en-US,en;q=0.9
+  - name: authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2Vyc19pZCI6MTg3LCJmdWxsX25hbWUiOiJBbmlsIFRpd2FyaSIsImNvbXBhbnkiOiJBbmlsIFRpd2FyaSIsImVtYWlsIjoiYW5pbHRpd2FyaUBzbWNmaW5hbmNlLmNvbSIsInVzZXJuYW1lIjoiTTMwODQiLCJzdWIiOiJNMzA4NCIsInJvbGVzIjpbIkNoZWNrZXJfTmV3X0FwcGxpY2F0aW9uIiwiQ2hlY2tlcl9OZXdfQXBwbGljYXRpb24iLCJDaGVja2VyX0VkaXRfQXBwbGljYXRpb24iLCJDaGVja2VyX0VkaXRfQXBwbGljYXRpb24iLCJDaGVja2VyX0N1c3RvbWVyX0RlbW9ncmFwaGljIiwiQ2hlY2tlcl9DdXN0b21lcl9EZW1vZ3JhcGhpYyIsIkNoZWNrZXJfQ3VzdG9tZXJfQWRkcmVzcyIsIkNoZWNrZXJfQ3VzdG9tZXJfQWRkcmVzcyIsIkNoZWNrZXJfQ3VzdG9tZXJfT3RoZXJzIiwiQ2hlY2tlcl9DdXN0b21lcl9PdGhlcnMiLCJBZG1pbmlzdHJhdG9yX1NhbGVzX0FwcGxpY2F0aW9uIiwiVU1TX1VzZXJfUGVybWlzc2lvbl9WaWV3IiwiVU1TX0FETUlOX0dST1VQIiwiU3VwcG9ydCBBcHAgX0dSUCIsIkxvYW4gS2l0IEdlbmVyYXRpb24iLCJCYW5raW5nIE9wcyAmIFJNVSBSZXBvcnRzIiwiT3BlcmF0aW9ucyBSZXBvcnRzIiwiSFIgJiBMJkQgVGVhbSBSZXBvcnRzIiwiQ3JlZGl0IERlcHQgUmVwb3J0cyIsIlJlY29uY2lsaWF0aW9uICYgQ29sbGVjdGlvbnMgVGVhbSBSZXBvcnRzIiwiTGVnYWwgRGVwdCBSZXBvcnRzIiwiRmluYW5jZSBUZWFtIFJlcG9ydCIsIk1pZGRsZS1vZmZpY2UgT3BzIFJlcG9ydHMiLCJWZW5kb3JBUElDa3ljIiwiVmVuZG9yQVBJUGFuIiwiU2FsZXMgQXBwIFVzZXIiLCJHTCBSZXBvcnRzIEFjY2VzcyIsIkNyZWRpdCBNSVMtIEFkbWluIiwiQ0VUIFBhZ2UgQWNjZXNzIl0sImlhdCI6MTcwNjUyMDA3NiwiZXhwIjoxNzA2NTg0ODc2fQ.9mPHW_HCoZGZn9rUibJ_5gOEf0TNtx6qGoHYO5FI34w
+  - name: cache-control
+    value: no-cache
+  - name: content-type
+    value: application/json
+  - name: origin
+    value: https://field.smcfinance.com
+  - name: pragma
+    value: no-cache
+  - name: referer
+    value: https://field.smcfinance.com/
+  - name: sec-ch-ua
+    value: '"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"'
+  - name: sec-ch-ua-mobile
+    value: ?0
+  - name: sec-ch-ua-platform
+    value: '"Windows"'
+  - name: sec-fetch-dest
+    value: empty
+  - name: sec-fetch-mode
+    value: cors
+  - name: sec-fetch-site
+    value: cross-site
+  - name: user-agent
+    value: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like
+      Gecko) Chrome/120.0.0.0 Safari/537.36
+authentication: {}
+metaSortKey: -1706520450168
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

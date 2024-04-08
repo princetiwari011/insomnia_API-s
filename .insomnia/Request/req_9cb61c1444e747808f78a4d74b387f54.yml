@@ -1,0 +1,36 @@
+_id: req_9cb61c1444e747808f78a4d74b387f54
+type: Request
+parentId: fld_7b72c062b48948309168118a1ec34f6a
+modified: 1699852467309
+created: 1657015199567
+url: http://api.devopsmcfinance.com/ckyc/servicedefault.svc/download
+name: Download CKYC
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "Factor": "24-07-1988",
+        "FactorType": "01",
+        "PAN": "CALPS6268R",
+        "CkycNo": "50054330651664",
+        "Authentication": {
+            "UserID": "Moneywise",
+            "Password": "ID@15#API"
+        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f3c454a3dd774261a64fd3a02a32ea38
+authentication: {}
+metaSortKey: 500
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

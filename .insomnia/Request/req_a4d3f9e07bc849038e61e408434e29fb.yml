@@ -1,0 +1,35 @@
+_id: req_a4d3f9e07bc849038e61e408434e29fb
+type: Request
+parentId: fld_7b72c062b48948309168118a1ec34f6a
+modified: 1681474894003
+created: 1668169300739
+url: https://apicloud.smcfinance.com/sales_lead/kyc/insertdocument
+name: CKYC Insert Document
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "kyc_demographic_id": 3987,
+      "kyc_identity_id": 0,
+      "doc_sr_no": "01",
+      "file_name": "",
+      "file_ext": "jpg",
+      "created_by": 245
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.Token }}"
+metaSortKey: 450
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

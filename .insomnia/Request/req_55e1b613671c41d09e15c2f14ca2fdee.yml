@@ -1,0 +1,35 @@
+_id: req_55e1b613671c41d09e15c2f14ca2fdee
+type: Request
+parentId: fld_7b72c062b48948309168118a1ec34f6a
+modified: 1699852353073
+created: 1697859391506
+url: http://api.devopsmcfinance.com/ckyc/servicedefault.svc/search
+name: CKYC Search -  Test
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "IDCode": "C",
+      "IDType": "12",
+      "IDNumber": "CALPS6268R",
+      "Authentication": {
+        "UserID": "Moneywise",
+        "Password": "ID@15#API"
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_344313dd1aa648cc956ef733a35d19af
+authentication: {}
+metaSortKey: 12.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

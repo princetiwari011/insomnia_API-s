@@ -1,0 +1,72 @@
+_id: req_853ccf3505f4492390de31a743cda51c
+type: Request
+parentId: fld_0383f1dc1b594b31870856ea18a72ca1
+modified: 1666881831556
+created: 1657015246415
+url: "{{ _.UAT_SalesAPI }}/salesleaddetail/update"
+name: Update KYC Status
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "{
+
+    \   \t\t\t\t\t\t\"sales_lead_id\": 1368,
+
+    \t\t\t\t\t\t\t\"kyc_address_id\": 349,
+
+    \t\t\t\t\t\t\t\"kyc_demographic_id\": 328,
+
+    \t\t\t\t\t\t\t\"address_category_id\": 1,
+
+    \t\t\t\t\t\t\t\"ownership_types_id\": 1,
+
+    \t\t\t\t\t\t\t\"address_type_id\": 1,
+
+    \t\t\t\t\t\t\t\"address_line_1\": \"PATTI SOHAN DI AMRITSAR\",
+
+    \t\t\t\t\t\t\t\"address_line_2\": \"VERKA PUNJAB\",
+
+    \t\t\t\t\t\t\t\"address_line_3\": \"\",
+
+    \t\t\t\t\t\t\t\"pin_code\": 143501,
+
+    \t\t\t\t\t\t\t\"city\": \"Amritsar\",
+
+    \t\t\t\t\t\t\t\"district\": \"Amritsar\",
+
+    \t\t\t\t\t\t\t\"landmark\": \"\",
+
+    \t\t\t\t\t\t\t\"state_id\": 3,
+
+    \t\t\t\t\t\t\t\"country_id\": 0,
+
+    \t\t\t\t\t\t\t\"latitude\": \"\",
+
+    \t\t\t\t\t\t\t\"longitude\": \"\",
+
+    \t\t\t\t\t\t\t\"is_verified\": false,
+
+    \t\t\t\t\t\t\t\"is_active\": true,
+
+    \t\t\t\t\t\t\t\"created_by\": 223
+
+    }
+
+    \t\t\t\t\t\t"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c32312ce87674ab898375ce4d38cb889
+authentication:
+  type: bearer
+  token: "{{ _.Token }}"
+metaSortKey: 800
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

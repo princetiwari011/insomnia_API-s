@@ -1,0 +1,33 @@
+_id: req_816fa8cbe63646508357351a6295ae3c
+type: Request
+parentId: fld_269079ab84a14fef9f730035ff47ecb0
+modified: 1696587248771
+created: 1658291434681
+url: "{{ _.GST_UAT }}generateotp"
+name: Generate OTP
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "GSTIN": "09AADCS7346H1Z2",
+      "LoginNo": "MW61119780",
+      "UserName": "smcglobal",
+      "OrderID": "ORD2021100121680",
+      "Token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJTTUMgR1NUIEFQUCIsInVzZXJfaWQiOiIxIiwibmFtZSI6IkFiaGlzaGVrIiwiZW1haWxJZCI6InRlc3RAZWthbnQuY29tIiwidXNlcl90eXBlIjoiNCIsImV4cCI6MTY1ODM3NzkwOSwiaWF0IjoxNjU4MjkxNTA5fQ.70IcWQzyRRSgESKcTIgsQzlfMm4-b-gpP-Z1drbeWiM"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_cd654f61e8aa4959abe77f4b3cee52a9
+authentication: {}
+metaSortKey: 300
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

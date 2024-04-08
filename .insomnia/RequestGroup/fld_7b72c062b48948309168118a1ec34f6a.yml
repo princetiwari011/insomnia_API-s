@@ -1,0 +1,10 @@
+_id: fld_7b72c062b48948309168118a1ec34f6a
+type: RequestGroup
+parentId: wrk_d9beee8904fc49659c6cb299a46b47bb
+modified: 1662976265078
+created: 1657015052359
+name: CKYC Details
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: 100

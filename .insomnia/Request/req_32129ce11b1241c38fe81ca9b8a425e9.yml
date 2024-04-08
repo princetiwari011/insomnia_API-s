@@ -1,0 +1,54 @@
+_id: req_32129ce11b1241c38fe81ca9b8a425e9
+type: Request
+parentId: fld_0383f1dc1b594b31870856ea18a72ca1
+modified: 1707129662684
+created: 1657014856292
+url: "{{ _.UAT_SalesAPI }}/salesleaddetail/insert"
+name: Insert KYC Status
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "sales_lead_id": 735,
+        "kyc_demographic_id": 231,
+        "mobile_no": "8334050361",
+        "otp_no": "916204",
+        "otp_generated_on": "2022-07-05T09:38:50.207",
+        "is_otp_verified": 1,
+        "otp_verification_failed": 0,
+        "is_pan_verified": 1,
+        "pan_verified_date": "07-05-2022",
+        "is_ckyc_search": 0,
+        "ckyc_search_date": "01-01-1900",
+        "is_ckyc_download": 0,
+        "ckyc_download_date": "01-01-1900",
+        "is_con_cibil_download": 0,
+        "con_cibil_download_date": "01-01-1900",
+        "is_comm_cibil_download": 0,
+        "comm_cibil_download_date": "01-01-1900",
+        "is_gst_nonconsent_download": 0,
+        "gst_nonconsent_download_date": "01-01-1900",
+        "is_gst_consent_download": 0,
+        "gst_consent_download_date": "01-01-1900",
+        "created_by": "1",
+        "entity_type": "Individual",
+        "is_income_consider": "true"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_3ffcf9a96c4b4424bb894e676c4fc9bc
+authentication:
+  type: bearer
+  token: '"Token"'
+metaSortKey: 600
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

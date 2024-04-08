@@ -1,0 +1,37 @@
+_id: req_c772e5abf9e545d3bae047f66d40711a
+type: Request
+parentId: fld_7b72c062b48948309168118a1ec34f6a
+modified: 1698905078831
+created: 1658124020636
+url: https://apicloud.smcfinance.com/ckyc/servicedefault.svc/search
+name: CKYC Search (Prod)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |+
+    {
+        "IDCode": "C",
+       
+        "IDNumber": "BLMPT1238D",
+    	
+        "Authentication": {
+        "UserID": "Moneywise",
+        "Password": "ID@15#API"
+        }
+    }
+
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_344313dd1aa648cc956ef733a35d19af
+authentication: {}
+metaSortKey: 200
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

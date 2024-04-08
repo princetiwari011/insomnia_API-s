@@ -1,0 +1,35 @@
+_id: req_903d26498c3e4e2587c31e0b16dbf9f7
+type: Request
+parentId: fld_7b72c062b48948309168118a1ec34f6a
+modified: 1669987337271
+created: 1657015110771
+url: http://api.devopsmcfinance.com/ckyc/servicedefault.svc/search
+name: CKYC Search (GST Number)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "IDCode": "03",
+        "IDType": "12",
+        "IDNumber": "06EQLPK3193K2ZB",
+        "Authentication": {
+            "UserID": "Moneywise",
+            "Password": "ID@15#API"
+        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_344313dd1aa648cc956ef733a35d19af
+authentication: {}
+metaSortKey: 100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,23 @@
+_id: req_8a2165dcb92d4d119228c3abd203239f
+type: Request
+parentId: fld_0877aa1f18324b568eb07085896bfd00
+modified: 1674564966825
+created: 1657608651726
+url: "{{ _.UAT_SalesAPI }}sales_lead/masters/dsa"
+name: DSA Master
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.Token }}"
+metaSortKey: 100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

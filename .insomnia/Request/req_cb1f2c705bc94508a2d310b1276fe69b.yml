@@ -1,0 +1,31 @@
+_id: req_cb1f2c705bc94508a2d310b1276fe69b
+type: Request
+parentId: fld_747dbf08fc084eba8cb3a0faaf141c9f
+modified: 1681474853593
+created: 1681474730180
+url: http://api.devopsmcfinance.com/sales_lead/saleslead/savetoprelogin
+name: "Send to Pre-login "
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "sales_lead_id": 2178,
+      "created_by": 239
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.Token }}"
+metaSortKey: -1662506867647.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

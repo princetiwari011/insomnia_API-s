@@ -1,0 +1,28 @@
+_id: req_41174a645ffc43f0aefd240fceda0568
+type: Request
+parentId: fld_0877aa1f18324b568eb07085896bfd00
+modified: 1666262533823
+created: 1657013982271
+url: "{{ _.UAT_SalesAPI }}/masters/schemedetail?Id=4"
+name: Get Scheme Details
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_bea3eaebcf744915be4bcae83c82a24b
+authentication:
+  type: bearer
+  token: "{{ _.Token }}"
+metaSortKey: 300
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

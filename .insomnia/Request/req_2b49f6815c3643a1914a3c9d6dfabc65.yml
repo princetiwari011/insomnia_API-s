@@ -1,0 +1,21 @@
+_id: req_2b49f6815c3643a1914a3c9d6dfabc65
+type: Request
+parentId: fld_0877aa1f18324b568eb07085896bfd00
+modified: 1662976265095
+created: 1657013751781
+url: http://api.devopsmcfinance.com/uat_sms/master/loanapplicationtype
+name: Loan Application Type List
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 400
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
